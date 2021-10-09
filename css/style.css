@@ -33,6 +33,10 @@ body {
     height: 100px;
   }
   
+  .header__intro{
+    max-width: 800px;
+  }
+
   .titulos {
     margin-left: 1rem;
   }
