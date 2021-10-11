@@ -31,16 +31,27 @@ body {
   
   .header {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+  }
+
+  .header__container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
   }
   
   .header img {
     height: 100px;
+    transform: scale(1.5);
   }
   
   .header__intro{
     max-width: 800px;
+    line-height: 2rem;
   }
 
   .titulos {
