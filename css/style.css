@@ -32,14 +32,8 @@ body {
   .header {
     display: flex;
     align-items: center;
-    margin-bottom: 3rem;
-  }
-
-  .header__container-logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 45%;
+    margin-bottom: 2rem;
+    gap: 6rem;
   }
   
   .header img {
