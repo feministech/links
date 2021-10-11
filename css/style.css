@@ -31,10 +31,8 @@ body {
   
   .header {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
-    gap: 2rem;
+    margin-bottom: 3rem;
   }
 
   .header__container-logo {
@@ -46,12 +44,13 @@ body {
   
   .header img {
     height: 100px;
-    transform: scale(1.5);
+    transform: scale(2);
   }
   
   .header__intro{
     max-width: 800px;
     line-height: 2rem;
+    text-align: justify;
   }
 
   .titulos {
