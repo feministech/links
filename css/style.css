@@ -7,6 +7,10 @@
   --azul: #00CAF3;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--branco);
@@ -15,6 +19,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4rem;
+    height: 100%;
   }
   
   h1 {
@@ -39,6 +45,7 @@ body {
   .header img {
     height: 100px;
     transform: scale(2);
+    margin-top: 2rem;
   }
   
   .header__intro{
@@ -65,12 +72,14 @@ body {
     margin: 1rem 0rem 1rem 0rem;
     padding: 1rem 10rem;
     border-radius: 0.625rem;
+    text-decoration: none;
   }
   
   .links a:hover {
     display: block;
     background-color: var(--rosa);
     animation: mouseHover 0.5s ease;
+    text-decoration: underline;
   }
   
   @keyframes mouseHover {
@@ -100,16 +109,47 @@ body {
     color: var(--rosa);
     animation: mouseHover 0.5s ease;
   }
-  
-  /* MOBILE */
-  
-  @media only screen and (max-width: 600px) {
+
+  /* RESPONSIVIDADE */
+
+  @media only screen and (max-width: 1024px){
     body {
-      max-width: 320px;
-      margin: 0 auto;
+      max-width: 1024px;
     }
   
     .links a {
-      padding: 1rem;
+      padding: 1.4rem;
+    }
+
+    .header {
+      flex-direction: column;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h2{ 
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+      min-width:  768px;
+      max-width: 1024px;
+    }
+
+    .header img {
+      margin-top: 6rem;
+    }
+
+    .links a {
+      font-size: 2rem;
+    }
+
+    .social li a {
+      font-size: 2rem;
     }
   }
