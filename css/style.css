@@ -7,12 +7,17 @@
   --azul: #00CAF3;
 }
 
+@font-face {
+  font-family: Bellota;
+  src: url('../fonts/Bellota-Bold.otf');
+}
+
 *{
   box-sizing: border-box;
 }
 
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Bellota", Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--branco);
     height: 100vh;
     display: flex;
@@ -61,7 +66,7 @@ body {
   /* LINKS */
   
   .links {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   
   .links a {
@@ -78,13 +83,13 @@ body {
   .links a:hover {
     display: block;
     background-color: var(--rosa);
-    animation: mouseHover 0.5s ease;
+    animation: mouseHover 0.8s ease; 
     text-decoration: underline;
   }
   
   @keyframes mouseHover {
     from {
-      opacity: 0;
+      opacity: 0.5;
     }
     to {
       opacity: 1;
