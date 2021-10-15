@@ -30,6 +30,7 @@ body {
   
   h1 {
     font-size: 2.5rem;
+    margin-bottom: 0.8rem;
     color:var(--roxo-vivo);
   }
   
@@ -43,20 +44,20 @@ body {
   .header {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
-    gap: 6rem;
+    margin-bottom: 1rem;
+    gap: 4rem;
   }
   
   .header img {
     height: 100px;
     transform: scale(2);
-    margin-top: 2rem;
+    margin-bottom: 2.3rem;
   }
   
   .header__intro{
-    max-width: 800px;
+    max-width: 600px;
     line-height: 2rem;
-    text-align: justify;
+    text-align: center;
   }
 
   .titulos {
@@ -66,7 +67,7 @@ body {
   /* LINKS */
   
   .links {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
   .links a {
@@ -132,7 +133,7 @@ body {
 
     h1 {
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
     h2{ 
@@ -151,7 +152,7 @@ body {
     }
 
     .links a {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
 
     .social li a {
