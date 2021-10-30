@@ -45,12 +45,11 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
-    gap: 4rem;
+    gap: 2rem;
   }
   
   .header img {
-    height: 100px;
-    transform: scale(2);
+    height: 160px;
     margin-bottom: 2.3rem;
   }
   
